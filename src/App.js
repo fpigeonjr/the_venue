@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "./resources/styles.css";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Featured from "./components/featured";
 import VenueInfo from "./components/venueInfo";
 import Highlights from "./components/highlights";
 import Pricing from "./components/pricing";
+import Location from "./components/location";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
         <VenueInfo />
         <Highlights />
         <Pricing />
+        <Location />
+        <Footer />
       </div>
     );
   }
